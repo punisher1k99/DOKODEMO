@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOKODEMO</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar">
         <div class="lang-icon">
-            <button class="b1"><i class="material-symbols-outlined" style="font-size: 30px;">language</i></button>
+            <button class="b1"><i class="material-symbols-outlined" style="font-size: 30px; cursor: pointer;">language</i></button>
         </div>
     </nav>
     <header class="main-header">
@@ -25,14 +27,21 @@
                 </div>
                 <input type="text" placeholder="Please enter username" class="details"
                     style="margin-top: 20px; font-size: 15px;">
-                <input type="text" placeholder="Please enter login password" class="details"
+                <input type="text" placeholder="Please enter password" class="details"
                     style="margin-bottom: 30px; font-size: 15px;">
                 <div class="radio">
-                    <input type="radio" class="forgot-password" placeholder="remember useranme/password">
-                    <label for="forgot-password" style="color: grey; ">remember username/password</label>
+                    <input type="checkbox" class="forgot-password">
+                    <label for="forgot-password" style="color: grey; ">remember</label>
                 </div>
                 <button type="submit" class="button-for-login">Login</button>
-
+                <div class="bottom-div" style="font-size: 12px;">
+                    <div class="div-left">
+                    <p href="" class="links">No account? <a>Register</a></p>
+                    </div>
+                    <div class="div-right">
+                    <a href="" class="links">Forgot Password?</a>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
